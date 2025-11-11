@@ -7,11 +7,17 @@ In this Microsoft challenge, I showcase what I've learned in a 30-days progress.
 
 # Project Overview
 
-![Project-overview](https://github.com/user-attachments/assets/a66ac6fb-7964-448c-a5eb-ac1d4837bcfe)
-
-
 The project is divided in four modules for a period of 30-days. Using actual Microsoft security tools, this challenge aims to demonstrate what a contemporary cloud SOC analyst does. 
 From my own lab setting, I will look into phishing emails, identify malicious activity, look for dangers, and prepare incident reports.
+# 🧠 30-Day Microsoft Challenge
+
+| 30-Day Microsoft Challenge |  |  |  |
+|:---------------------------:|:-----------------:|:-----------------:|:-----------------:|
+| **MODULE 1** | **MODULE 2** | **MODULE 3** | **MODULE 4** |
+| *SOC Lab and Sentinel Setup* | *Email Security with Defender for Office 365* | *Endpoint Security with Defender for Endpoint* | *Identity with Entra ID* |
+| [Day 1-9](docs/module1.md) | [Day 10-16](docs/module2.md) | [Day 17-23](docs/module3.md) | [Day 24-30](docs/module4.md) |
+
+
 
 # 🧰 Microsoft Security & Cloud Tools in My Lab 
 
@@ -27,14 +33,6 @@ From my own lab setting, I will look into phishing emails, identify malicious ac
 
 🧭 Microsoft Intune — endpoint management and device compliance service integrated with Entra ID
 
-
-# 🧠 30-Day Microsoft Challenge
-
-| 30-Day Microsoft Challenge |  |  |  |
-|:---------------------------:|:-----------------:|:-----------------:|:-----------------:|
-| **MODULE 1** | **MODULE 2** | **MODULE 3** | **MODULE 4** |
-| *SOC Lab and Sentinel Setup* | *Email Security with Defender for Office 365* | *Endpoint Security with Defender for Endpoint* | *Identity with Entra ID* |
-| [Day 1-9](docs/module1.md) | [Day 10-16](docs/module2.md) | [Day 17-23](docs/module3.md) | [Day 24-30](docs/module4.md) |
 
 
 
