@@ -28,6 +28,14 @@ From my own lab setting, I will look into phishing emails, identify malicious ac
 🧭 Microsoft Intune — endpoint management and device compliance service integrated with Entra ID
 
 
+# 🧠 30-Day Microsoft Challenge
+
+| 30-Day Microsoft Challenge |  |  |  |
+|:---------------------------:|:-----------------:|:-----------------:|:-----------------:|
+| **MODULE 1** | **MODULE 2** | **MODULE 3** | **MODULE 4** |
+| [Day 1-9](docs/module1.md) | [Day 10-16](docs/module2.md) | [Day 17-23](docs/module3.md) | [Day 24-30](docs/module4.md) |
+
+
 
 Security Information and Event Management (SIEM) system for log ingestion and analysis.
 Network analysis tools (such as Wireshark) for capturing and examining network traffic.
