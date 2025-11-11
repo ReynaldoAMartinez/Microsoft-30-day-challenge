@@ -11,7 +11,7 @@ The project is divided in four modules for a period of 30-days. Using actual Mic
 From my own lab setting, I will look into phishing emails, identify malicious activity, look for dangers, and prepare incident reports.
 # 🧠 30-Day Microsoft Challenge
 
-| 30-Day Microsoft Challenge |  |  |  |
+
 |:---------------------------:|:-----------------:|:-----------------:|:-----------------:|
 | **MODULE 1** | **MODULE 2** | **MODULE 3** | **MODULE 4** |
 | *SOC Lab and Sentinel Setup* | *Email Security with Defender for Office 365* | *Endpoint Security with Defender for Endpoint* | *Identity with Entra ID* |
