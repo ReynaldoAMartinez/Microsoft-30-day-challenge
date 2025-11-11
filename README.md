@@ -1,6 +1,6 @@
 # Microsoft-30-day-challenge
 
-Objective
+# Objective
 
 In this 30-Day challenge using a purely Microsoft-based environment, I showcase what I've learned in the different modules and progress days, as well as demonstrate through the steps and screenshots the new knowledge and skills I'm acquiring through this process. Through this process I'am pursuing and achievement goals such as to gain real experience in a SOC environment with Microsoft-based tools, to create projects I can showcase in my personal portfolio, to acquire a methodology for research, and "think like an analyst" when doing my work.
 
