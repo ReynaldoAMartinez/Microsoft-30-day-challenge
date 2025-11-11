@@ -5,8 +5,9 @@
 In this Microsoft challenge, I showcase what I've learned in a 30-days progress. The procedure, tasks, and screenshots on this project show the knowledge, and skills I'm learning to grow in my career. 
 
 
-Skills Learned
-[Bullet Points - Remove this afterwards]
+# Project Overview
+
+
 
 Advanced understanding of SIEM concepts and practical application.
 Proficiency in analyzing and interpreting network logs.
