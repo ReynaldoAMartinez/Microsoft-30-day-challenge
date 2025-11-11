@@ -7,6 +7,7 @@ In this Microsoft challenge, I showcase what I've learned in a 30-days progress.
 
 # Project Overview
 
+![Project-overview](https://github.com/user-attachments/assets/a66ac6fb-7964-448c-a5eb-ac1d4837bcfe)
 
 
 Advanced understanding of SIEM concepts and practical application.
