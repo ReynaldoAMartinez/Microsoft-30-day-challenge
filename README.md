@@ -10,11 +10,9 @@ In this Microsoft challenge, I showcase what I've learned in a 30-days progress.
 ![Project-overview](https://github.com/user-attachments/assets/a66ac6fb-7964-448c-a5eb-ac1d4837bcfe)
 
 
-Advanced understanding of SIEM concepts and practical application.
-Proficiency in analyzing and interpreting network logs.
-Ability to generate and recognize attack signatures and patterns.
-Enhanced knowledge of network protocols and security vulnerabilities.
-Development of critical thinking and problem-solving skills in cybersecurity.
+The project is divided in four modules for a period of 30-days. Using actual Microsoft security tools, this challenge aims to demonstrate what a contemporary cloud SOC analyst does. 
+From my own lab setting, I will look into phishing emails, identify malicious activity, look for dangers, and prepare incident reports.
+
 Tools Used
 [Bullet Points - Remove this afterwards]
 
