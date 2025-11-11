@@ -2,7 +2,8 @@
 
 # Purpose
 
-In this Microsoft challenge, I showcase what I've learned in a 30-days progress. The procedure, tasks, and screenshots on this project show the knowledge, and skills I'm learning to grow in my career. 
+Through this Microsoft challenge, I want to show the knowledge, and skills that I have to create a Microsoft SOC lab from the ground up, configure Microsoft Sentinel, Defender for Endpoint, Defender for Office 365, and Entra ID with the goal 
+to examine identity-based threats, malware, and phishing. Also, show how I can create incident reports that are mapped to MITRE ATT&CK, and apply workflows for detection and response that are utilized in a SOC environment.
 
 
 # Project Overview
