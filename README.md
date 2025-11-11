@@ -2,7 +2,7 @@
 
 # Purpose
 
-In this 30-Day challenge using a purely Microsoft-based environment, I showcase what I've learned in the progress days, as well as demonstrate with the steps and screenshots attached the knowledge and skills I'm acquiring through this project. 
+In this Microsoft challenge, I showcase what I've learned in a 30-days progress. The procedure, tasks, and screenshots on this project show the knowledge, and skills I'm learning to grow in my career. 
 
 
 Skills Learned
