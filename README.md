@@ -2,7 +2,7 @@
 
 # Purpose
 
-In this 30-Day challenge using a purely Microsoft-based environment, I showcase what I've learned in the different modules and progress days, as well as demonstrate through the steps and screenshots the new knowledge and skills I'm acquiring through this process. Through this process I'am pursuing and achievement goals such as to gain real experience in a SOC environment with Microsoft-based tools, working on projects I can showcase in my personal portfolio, to acquire a methodology for research, and "think like an analyst" when doing my work.
+In this 30-Day challenge using a purely Microsoft-based environment, I showcase what I've learned in the progress days, as well as demonstrate with the steps and screenshots attached the knowledge and skills I'm acquiring through this project. Through this process I'am pursuing goals like gain real experience in a SOC environment with Microsoft-based tools, adding a new project in my portfolio, to acquire a methodology for research, and "think like an analyst" when doing an investigation.
 
 
 Skills Learned
