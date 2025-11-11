@@ -2,8 +2,8 @@
 
 Objective
 [Brief Objective - Remove this afterwards]
+In this 30-Day challenge using a purely Microsoft-based environment, I want to showcase what I've learned in the different modules and progress days, as well as demonstrate through the steps and screenshots the new knowledge and skills I'm acquiring through this process. This has allowed me to achieve goals I've been pursuing in my cybersecurity career: (1) to gain real experience in a SOC environment with Microsoft-based tools, (2) to create projects I can showcase in my personal portfolio, (3) to acquire a methodology for research, and (4) "think like an analyst" when doing my work.
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
 
 Skills Learned
 [Bullet Points - Remove this afterwards]
