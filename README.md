@@ -2,8 +2,8 @@
 
 # Purpose
 
-Through this project, I want to show the knowledge, and skills that I have to create a Microsoft SOC lab from the ground up, configure Microsoft Sentinel, Defender for Endpoint, Defender for Office 365, and Entra ID with the goal 
-to examine identity-based threats, malware, and phishing. Also, show how I can create incident reports that are mapped to MITRE ATT&CK, and apply workflows for detection and response utilized in a SOC environment.
+Through this project, I want to show my knowledge, and skills to create a Microsoft SOC lab from the ground up, configure Microsoft Sentinel, Defender for Endpoint, Defender for Office 365, and Entra ID. My goal is
+demostrate how to examine identity-based threats, malware, and phishing. Also, show how I can create incident reports that are mapped to MITRE ATT&CK, and apply workflows for detection and response utilized in a SOC environment.
 
 ___
 
