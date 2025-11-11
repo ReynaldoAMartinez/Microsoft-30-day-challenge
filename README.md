@@ -13,19 +13,13 @@ In this Microsoft challenge, I showcase what I've learned in a 30-days progress.
 The project is divided in four modules for a period of 30-days. Using actual Microsoft security tools, this challenge aims to demonstrate what a contemporary cloud SOC analyst does. 
 From my own lab setting, I will look into phishing emails, identify malicious activity, look for dangers, and prepare incident reports.
 
-# Tools Used
-🧰 Microsoft Security & Cloud Tools in My Lab
+# Microsoft Security & Cloud Tools in My Lab
 
 🧩 Microsoft 365 E5 Trial License — provides enterprise-grade access to Microsoft’s full security stack (Defender, Sentinel, Intune, etc.)
-
 ☁️ Microsoft Azure Portal — main management console for virtual machines, Sentinel, and other Azure resources
-
 🛰️ Microsoft Sentinel — SIEM and SOAR platform for incident detection, investigation, and response
-
 🛡️ Microsoft Defender XDR — unified extended detection and response (XDR) platform for endpoints, identities, and cloud resources
-
 🔐 Microsoft Entra ID (Azure Active Directory) — cloud-based identity and access management service
-
 🧭 Microsoft Intune — endpoint management and device compliance service integrated with Entra ID
 
 
