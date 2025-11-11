@@ -32,9 +32,7 @@ From my own lab setting, I will look into phishing emails, identify malicious ac
 
 | 30-Day Microsoft Challenge |  |  |  |
 | 30-Day Microsoft Challenge |
-|:---------------------------:|:-----------------:|:-----------------:|:-----------------:|
 | **MODULE 1** | **MODULE 2** | **MODULE 3** | **MODULE 4** |
-| **SOC Lab and Sentinel Setup** | **Email Security with Defender for Office 365** | **Endpoint Security with Defender for Endpoint** | **Identity with Entra ID** |
 | [Day 1-9](docs/module1.md) | [Day 10-16](docs/module2.md) | [Day 17-23](docs/module3.md) | [Day 24-30](docs/module4.md) |
 
 
