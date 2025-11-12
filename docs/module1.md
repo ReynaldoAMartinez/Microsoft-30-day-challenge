@@ -134,6 +134,34 @@ ___
 ___
 In this point, the assigment is to do a summary of the results achieved after I have completed the Module 1: Days 1-9.
 
+## 🏁 Final Reflection
+
+### 💡 What I Can Now Do That I Couldn’t Before
+- ☁️ Build a **cloud-based lab** in Azure  
+- 💻 Create **virtual machines** in Azure to work in a safe environment  
+- 🧾 Create **Azure accounts** and set up **billing alerts**  
+- 📈 Create a **Log Analytics Workspace** in Azure  
+- 🛡️ Install and set up **Microsoft Sentinel** and **Defender for Endpoint**  
+- 🔍 Create and run **KQL queries** to investigate common SOC scenarios  
+- 📊 Create **Dashboards / Workbooks** in Microsoft Sentinel  
+- 🔗 Connect **Microsoft Defender XDR** to Sentinel and create simple **analytic rules**  
+- 📘 Create **Bookmarks** in Sentinel to document findings  
+- 🚨 Create **Incidents** from Bookmarks  
+
+---
+
+### 🌟 Most Impactful Part of the Challenge
+> Working all these days in a **real cloud-based environment** using **Microsoft Azure**, **Defender**, and **Sentinel** has been a **huge step** in my learning journey.
+
+---
+
+### 🚀 Areas I Want to Keep Improving
+Continue learning about:
+- 🧠 **Advanced KQL** & Data Analysis  
+- 📚 **Writing and documenting playbooks**  
+- 📊 Using **Workbooks** for visual dashboards  
+- ⚙️ **Building Sentinel analytic rules**  
+- 🧾 Writing clear and concise **SOC investigation reports**
 
 
 
