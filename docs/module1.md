@@ -19,7 +19,7 @@ ___
 # Created a Windows 11 virtual machine in Azure
 <img width="1778" height="902" alt="image" src="https://github.com/user-attachments/assets/7ffb84b2-06c6-49ff-978d-a25ce693f063" />
 
-# Do a RDP to the Windows 11 virtual machine
+# RDP to the Windows 11 virtual machine
 <img width="2552" height="1434" alt="image" src="https://github.com/user-attachments/assets/a74e2291-829a-4721-8379-0a353074a3e6" />
 
 ___
