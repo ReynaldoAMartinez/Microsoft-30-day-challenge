@@ -3,10 +3,10 @@ ___
 # Day 1:
 ___
 
-# Created an Azure account.
+# Created an Azure account
   <img width="1158" height="360" alt="image" src="https://github.com/user-attachments/assets/20ea78b4-db43-4e45-9716-878c6ef971f1" />
 
-# Set up billing alerts.
+# Set up a billing alert
   <img width="1574" height="383" alt="image" src="https://github.com/user-attachments/assets/6da58d7f-e330-45af-bfd7-04d711dbc8aa" />
 
 # Decided on my resource naming convention: MyDFIR-Reynaldo
@@ -22,36 +22,24 @@ ___
 # Do a RDP to the Windows 11 virtual machine
 <img width="2552" height="1434" alt="image" src="https://github.com/user-attachments/assets/a74e2291-829a-4721-8379-0a353074a3e6" />
 
-
-
+___
 # Day 2:
-
-# Day 2:
-
-# Day 2:
-
-# Day 2:
-
-# Day 2:
-
-
+___
+# Day 3:
+___
+# Day 4:
+___
+# Day 5:
+___
+# Day 6:
+___
+# Day 6:
+___
+# Day 6:
+___
+# Day 6:
 ___
 
-- Day 9: …
-
----
-
-Create an Azure account and set up billing alerts
-
-
-
-Decide on your resource naming convention and write it down
-
-
-
-
-
-Example: MyDFIR-Sara-VM, MyDFIR-Sara-Sentinel
 
 
 [⬅️ Back to Main Page](../README.md)
