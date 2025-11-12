@@ -76,16 +76,33 @@ SecurityEvent_CL
 ```
 <img width="1905" height="962" alt="image" src="https://github.com/user-attachments/assets/2618917b-68da-45ba-a121-b87a84eddbea" />
 
+___
+# Day 5:Create a Microsoft Sentinel Workbook 
+___
+From Sentinel / Threat management / Workbooks, I created my own visualizations. One of them is showed below.
+<img width="919" height="925" alt="image" src="https://github.com/user-attachments/assets/27f80a06-fd4b-48fb-8b0d-af5d425412ff" />
+Something I learned is the dashboard should be created focus on 3 things:
 
-# Day 5:
+Visibility --> can you see what is happening across your endpoints, users, email?
+Volume --> can you track how much activity is occurring?
+Trends --> can you detect if something is increasing or changing over time?
+
 ___
-# Day 6:
+# Day 6:Connect Microsoft Defender XDR into Sentinel and create a simple analytic rule
 ___
-# Day 6:
+To connect these two together, I needed to install the appropiate data connector.
+<img width="1864" height="958" alt="image" src="https://github.com/user-attachments/assets/5718ee92-6477-45d7-b62d-37c32092d9f2" />
+
+To create a detection rule using the sample data ingested previously I went to Sentinel / Configuration / Analytics / Create / Schedule query rule
+<img width="1262" height="880" alt="image" src="https://github.com/user-attachments/assets/df5c3f30-cc2f-4ee4-9317-e8b1a9a8fd00" />
+
+
 ___
-# Day 6:
+# Day 7:Use KQL to investigate a common SOC scenario which is a spike and failed login attempts
 ___
-# Day 6:
+
+
+# Day 8:
 ___
 
 
