@@ -28,10 +28,10 @@ ___
 ___
 # Day 3: Create a Log Analytics Workspace
 ___
-# Create the Log Analytics workspace named MyDFIR-Reynaldo-LAW
+# Created the Log Analytics workspace named MyDFIR-Reynaldo-LAW
 <img width="754" height="949" alt="image" src="https://github.com/user-attachments/assets/17080e60-8587-4ef8-8f15-26a1655ccc0d" />
 
-# Install Microsoft Sentinel
+# Installed Microsoft Sentinel
 <img width="1910" height="940" alt="image" src="https://github.com/user-attachments/assets/fe90e2e9-59b5-43e2-aca7-d73d85edfcd2" />
 
 - Today I learned that **Microsoft Sentinel** allows you to **ingest and centralize logs**, **create custom detections**, and **run automated workflows** using the following options:
