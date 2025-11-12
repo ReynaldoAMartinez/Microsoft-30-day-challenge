@@ -98,12 +98,44 @@ To create a detection rule using the sample data ingested previously I went to S
 
 
 ___
-# Day 7:Use KQL to investigate a common SOC scenario which is a spike and failed login attempts
+# Day 7:Use KQL to investigate a common SOC scenario 
 ___
+This was a great exercise to use the sample log in Sentinel and KQL to investigate a common SOC scenario which is a spike and failed login attempts.
+**Scenario**: I received an alert about multiple failed logins. My task is to use KQL to answer the following:
+- Which accounts are experiencing the most failed logons?
+- Were there any successful logins for those accounts? If so, from where?
+- What would I recommend if this were a real client incident?
+
+Please see my investigation report in the next link
+## 📄 PDF Resources
+
+- [Open Sentinel Lab Report (PDF)](./docs/InvRepDay7.pdf)
+
+___
+# Day 8: Creat Bookmarks in Sentinel to document important findings
+___
+What I learned about Bookmarks is ...
+- it is used during threat hunting or correlation between email and point an identity logs.
+- it is listed under Sentinel / Hunting.
+- an incident can be created from a bookmark.
+
+I created a KQL to list some data from the table SecurityAlert, create a bookmar, and an incident as it is showed below:
+```kql
+SecurityAlert
+| project TimeGenerated, AlertName, AlertSeverity, CompromisedEntity, ProviderName
+| limit 20
+```
+<img width="1323" height="860" alt="image" src="https://github.com/user-attachments/assets/2456f704-1a20-4656-92b1-e21b3e6d208a" />
+
+<img width="1620" height="444" alt="image" src="https://github.com/user-attachments/assets/ae92d8fe-96f9-4e59-8bf2-1f61cb481146" />
+
+___
+# Day 9: Mini Project #1
+___
+In this point, the assigment is to do a summary of the results achieved after I have completed the Module 1: Days 1-9.
 
 
-# Day 8:
-___
+
 
 
 
