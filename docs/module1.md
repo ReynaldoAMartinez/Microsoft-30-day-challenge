@@ -122,7 +122,7 @@ ___
   - 🚨 An **incident** can be created directly from a bookmark.
 
 
-I created a KQL to list some data from the table SecurityAlert, create a bookmar, and an incident as it is showed below:
+I created a KQL to list data from the table "SecurityAlert", a bookmark, and an incident as is showed below:
 ```kql
 SecurityAlert
 | project TimeGenerated, AlertName, AlertSeverity, CompromisedEntity, ProviderName
