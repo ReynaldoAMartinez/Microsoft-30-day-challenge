@@ -1,6 +1,6 @@
 # Module 1 — SOC Lab and Sentinel Setup - Days 1-9
 ___
-# Day 1:
+# Day 1:Built and operate my own SOC Lab using Microsoft Security stack
 ___
 
 # Created an Azure account
