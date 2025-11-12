@@ -1,6 +1,6 @@
 # Module 1 — SOC Lab and Sentinel Setup - Days 1-9
 ___
-# Day 1:Created an Azure account to manage the project
+# Day 1:Create an Azure account to manage the project
 ___
 
 # Created an Azure account
@@ -112,7 +112,7 @@ Please see my investigation report in the next link
 - [Open Sentinel Lab Report (PDF)](/docs/InvRepDay7.pdf)
 
 ___
-# Day 8: Creat Bookmarks in Sentinel to document important findings
+# Day 8: Create Bookmarks in Sentinel to document important findings
 ___
 What I learned about Bookmarks is ...
 - it is used during threat hunting or correlation between email and point an identity logs.
@@ -132,7 +132,7 @@ SecurityAlert
 ___
 # Day 9: Mini Project #1
 ___
-In this point, the assigment is to do a summary of the results achieved after I have completed the Module 1: Days 1-9.
+Here I summarize the Module 1 (Days 1-9) of my learning journey:
 
 ## 🏁 Final Reflection
 
