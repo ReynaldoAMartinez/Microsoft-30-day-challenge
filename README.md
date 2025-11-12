@@ -11,7 +11,6 @@ ___
 
 The project is divided in four modules for a period of 30-days. Using actual Microsoft security tools, this challenge aims to demonstrate what a contemporary cloud SOC analyst does. 
 
-
 <div align="center">
 
 | 30-Day Microsoft Challenge |  |  |  |
