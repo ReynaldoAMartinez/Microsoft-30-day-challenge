@@ -65,7 +65,7 @@ Then from Azure I installed Microsoft Sentinel Training Lab Solution
 <img width="744" height="955" alt="image" src="https://github.com/user-attachments/assets/b2d50130-eb1d-41d5-b875-97f5aa0861fc" />
 
 From Sentinel / Logs, I created my first KQL using one of the tables (SecurityEvent_CL): 
-### 🔍 Query: Failed Logon Events
+### Query: Failed Logon Events
 
 This query returns up to 10 records from the **SecurityEvent_CL** table where the **Event ID** equals `4625` (failed logon attempts).
 
@@ -73,6 +73,7 @@ This query returns up to 10 records from the **SecurityEvent_CL** table where th
 SecurityEvent_CL
 | where EventID_s == "4625"
 | take 10
+```
 <img width="1905" height="962" alt="image" src="https://github.com/user-attachments/assets/2618917b-68da-45ba-a121-b87a84eddbea" />
 
 
