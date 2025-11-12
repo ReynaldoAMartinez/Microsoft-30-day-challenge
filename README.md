@@ -2,15 +2,15 @@
 
 # Purpose
 
-Through this project, I want to show my knowledge, and skills to create a Microsoft SOC lab from the ground up, configure Microsoft Sentinel, Defender for Endpoint, Defender for Office 365, and Entra ID. 
-My goal is to examine identity-based threats, malware, and phishing. Also, to create incident reports that are mapped to MITRE ATT&CK, and apply workflows for detection and response utilized in a SOC environment.
+Through this project, I show my knowledge, and skills to create a Microsoft SOC lab from the ground up, how to configure Microsoft Sentinel, Defender for Endpoint, Defender for Office 365, and Entra ID. 
+Also, I apply workflows to examine identity-based threats, malware, phishing, and how to create incident reports that are mapped to MITRE ATT&CK for detection and response like are utilized in a SOC environment.
 
 ___
 
 # Project Overview
 
 The project is divided in four modules for a period of 30-days. Using actual Microsoft security tools, this challenge aims to demonstrate what a contemporary cloud SOC analyst does. 
-From my own lab setting, I will look into phishing emails, identify malicious activity, look for dangers, and prepare incident reports.
+
 
 <div align="center">
 
