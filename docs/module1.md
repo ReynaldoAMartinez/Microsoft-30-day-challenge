@@ -1,6 +1,6 @@
 # Module 1 — SOC Lab and Sentinel Setup - Days 1-9
 ___
-# Day 1:Built and operate my own SOC Lab using Microsoft Security stack
+# Day 1:Created an Azure account to manage the project
 ___
 
 # Created an Azure account
@@ -12,6 +12,8 @@ ___
 # Decided on my resource naming convention: MyDFIR-Reynaldo
 
 ___
+# Day 2:Create a Windows 11 virtual machine
+___
 # Created a resource to save my project: MyDFIR-Reynaldo-RG
 <img width="1375" height="356" alt="image" src="https://github.com/user-attachments/assets/32cccbbc-67a4-4bd0-9e5a-98c39efcc504" />
 
@@ -22,13 +24,33 @@ ___
 # RDP to the Windows 11 virtual machine
 <img width="2552" height="1434" alt="image" src="https://github.com/user-attachments/assets/a74e2291-829a-4721-8379-0a353074a3e6" />
 
+
 ___
-# Day 2:
+# Day 3: Create a Log Analytics Workspace
 ___
-# Day 3:
+# Create the Log Analytics workspace named MyDFIR-Reynaldo-LAW
+<img width="754" height="949" alt="image" src="https://github.com/user-attachments/assets/17080e60-8587-4ef8-8f15-26a1655ccc0d" />
+
+# Install Microsoft Sentinel
+<img width="1910" height="940" alt="image" src="https://github.com/user-attachments/assets/fe90e2e9-59b5-43e2-aca7-d73d85edfcd2" />
+
+This day I learned that Microsoft Sentinel allows options ingest and centralize logs, create custom detections, and run automated workflows using the next options:
+"Logs" to run queries (pre-built), and there are two modes to run those queries: simple mode, and KQL mode.
+"Configuration / Analytics" to create my own detection rules.
+"Configuration / Automation" to create automation rules than can act as playbooks.
+"Threat management / Incidents" to create incidents based on alerts defined in the anlytics page.
+"Threat management / Workbooks" to build dashboards & visualizations.
+
 ___
-# Day 4:
+# Day 4:Connect the first data source to Sentinel, aned begin learning KQL
 ___
+
+
+
+
+
+
+
 # Day 5:
 ___
 # Day 6:
