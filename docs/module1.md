@@ -49,13 +49,31 @@ ___
   - 📊 **Threat management / Workbooks**: Build **dashboards** and **visualizations**.
 
 ___
-# Day 4:Connect the first data source to Sentinel, aned begin learning KQL
+# Day 4:Connect the first data source to Sentinel, and begin learning KQL (Kusto Query Language)
 ___
+# Connected AzureActivity to Sentinel
+Under Azure, updated diagnostics setting to speficies categories: Administrative, Security, and Alert and Send to Log Analytics workspace in Azure subscription 1 to the MyDFIR-Reynaldo-LAW
+<img width="1904" height="846" alt="image" src="https://github.com/user-attachments/assets/dd162cc7-0446-42de-a400-4af5c1b13236" />
 
+Now I go to Defender / System / Settings / Microsoft Sentinel  and I can see my workspace “Connected”
+<img width="1909" height="942" alt="image" src="https://github.com/user-attachments/assets/650b7824-5972-4d8c-9ead-e31ff5a2c5a6" />
 
+In Microsoft Defender / Content hub I searched for Azure Activity to install it
+<img width="1904" height="961" alt="image" src="https://github.com/user-attachments/assets/876e4c97-2854-471f-afd3-56de25160617" />
 
+Then from Azure I installed Microsoft Sentinel Training Lab Solution
+<img width="744" height="955" alt="image" src="https://github.com/user-attachments/assets/b2d50130-eb1d-41d5-b875-97f5aa0861fc" />
 
+From Sentinel / Logs, I created my first KQL using one of the tables (SecurityEvent_CL): 
+### 🔍 Query: Failed Logon Events
 
+This query returns up to 10 records from the **SecurityEvent_CL** table where the **Event ID** equals `4625` (failed logon attempts).
+
+```kql
+SecurityEvent_CL
+| where EventID_s == "4625"
+| take 10
+<img width="1905" height="962" alt="image" src="https://github.com/user-attachments/assets/2618917b-68da-45ba-a121-b87a84eddbea" />
 
 
 # Day 5:
