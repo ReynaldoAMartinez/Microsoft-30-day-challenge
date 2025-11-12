@@ -34,12 +34,19 @@ ___
 # Install Microsoft Sentinel
 <img width="1910" height="940" alt="image" src="https://github.com/user-attachments/assets/fe90e2e9-59b5-43e2-aca7-d73d85edfcd2" />
 
-This day I learned that Microsoft Sentinel allows options ingest and centralize logs, create custom detections, and run automated workflows using the next options:
-"Logs" to run queries (pre-built), and there are two modes to run those queries: simple mode, and KQL mode.
-"Configuration / Analytics" to create my own detection rules.
-"Configuration / Automation" to create automation rules than can act as playbooks.
-"Threat management / Incidents" to create incidents based on alerts defined in the anlytics page.
-"Threat management / Workbooks" to build dashboards & visualizations.
+- Today I learned that **Microsoft Sentinel** allows you to **ingest and centralize logs**, **create custom detections**, and **run automated workflows** using the following options:
+
+  - 📝 **Logs**: Run queries (pre-built). There are two modes to run these queries:
+    - 🔹 **Simple mode**
+    - 🔹 **KQL mode**
+  
+  - ⚙️ **Configuration / Analytics**: Create your own **detection rules**.
+  
+  - 🤖 **Configuration / Automation**: Create **automation rules** that can act as **playbooks**.
+  
+  - 🚨 **Threat management / Incidents**: Create **incidents** based on **alerts** defined in the Analytics page.
+  
+  - 📊 **Threat management / Workbooks**: Build **dashboards** and **visualizations**.
 
 ___
 # Day 4:Connect the first data source to Sentinel, aned begin learning KQL
