@@ -1,7 +1,9 @@
 # Module 1 — SOC Lab and Sentinel Setup
 
 ## Days 1–9
-- Day 1:
+___
+
+# Day 1:
   Created an Azure account.
   <img width="1158" height="360" alt="image" src="https://github.com/user-attachments/assets/20ea78b4-db43-4e45-9716-878c6ef971f1" />
 
@@ -10,10 +12,28 @@
 
   Decided on my resource naming convention: MyDFIR-Reynaldo-VM, MyDFIR-Reynaldo-Sentinel
 
+___
 
 
-- Day 2:
-- …
+# Day 2:
+
+# Day 2:
+
+# Day 2:
+
+# Day 2:
+
+# Day 2:
+
+# Day 2:
+
+# Day 2:
+
+# Day 2:
+
+
+___
+
 - Day 9: …
 
 ---
