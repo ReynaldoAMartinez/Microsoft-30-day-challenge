@@ -109,7 +109,7 @@ This was a great exercise to use the sample log in Sentinel and KQL to investiga
 Please see my investigation report in the next link
 ## 📄 PDF Resources
 
-- [Open Sentinel Lab Report (PDF)](./docs/InvRepDay7.pdf)
+- [Open Sentinel Lab Report (PDF)](/docs/InvRepDay7.pdf)
 
 ___
 # Day 8: Creat Bookmarks in Sentinel to document important findings
