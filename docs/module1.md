@@ -115,10 +115,12 @@ Please see my investigation report in the next link
 ___
 # Day 8: Create Bookmarks in Sentinel to document important findings
 ___
-What I learned about Bookmarks is ...
-- it is used during threat hunting or correlation between email and point an identity logs.
-- it is listed under Sentinel / Hunting.
-- an incident can be created from a bookmark.
+- **What I learned about Bookmarks is:**
+
+  - 🔖 It is used during **threat hunting** or to **correlate events** between email and identity logs.  
+  - 📂 It is listed under **Sentinel → Hunting**.  
+  - 🚨 An **incident** can be created directly from a bookmark.
+
 
 I created a KQL to list some data from the table SecurityAlert, create a bookmar, and an incident as it is showed below:
 ```kql
