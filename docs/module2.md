@@ -3,7 +3,7 @@
 ## Days 10–16
 
 
-[Day 10](docs/MS-Day10.md) - Create two users and assign E5 licenses
+[Day 10](Microsoft-30-day-challenge/docs/MS-Day10.md) - Create two users and assign E5 licenses
 
 [Day 11](docs/MS-Day11.md) - Create two users and assign E5 licenses
 
