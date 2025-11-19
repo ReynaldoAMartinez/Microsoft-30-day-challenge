@@ -21,7 +21,7 @@
 <img width="584" height="644" alt="image (5)" src="https://github.com/user-attachments/assets/0cd732ad-762d-464c-b49e-fb847aff1c91" />
 
 
-# Checked the Authentication fields. Email passed ok.
+# Checked the Authentication fields. Both email passed ok.
 <img width="559" height="207" alt="image (6)" src="https://github.com/user-attachments/assets/a080f518-9e85-4895-a39b-9b9bd160ff95" />
 
 
