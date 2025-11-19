@@ -15,7 +15,9 @@
 # Examined the email details
 <img width="1587" height="678" alt="image (3)" src="https://github.com/user-attachments/assets/070b9763-5363-4eef-b279-53d730337723" />
 
-# Sent a second email to Bob. He clicked on the URL twice 
+# Sent a second email to Bob with an image attached. He clicked on the URL twice 
+<img width="909" height="595" alt="image (10)" src="https://github.com/user-attachments/assets/bd714ace-378c-4a1b-96e7-381efc99d016" />
+
 <img width="584" height="644" alt="image (5)" src="https://github.com/user-attachments/assets/0cd732ad-762d-464c-b49e-fb847aff1c91" />
 
 
