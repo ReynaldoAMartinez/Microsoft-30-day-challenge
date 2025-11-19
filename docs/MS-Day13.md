@@ -16,6 +16,6 @@
 
 <img width="1095" height="845" alt="image" src="https://github.com/user-attachments/assets/d70070e7-4df6-4484-9361-4a9f996da88f" />
 
-# My Antiphishing policy was created in my environment.
+# Antiphishing policy was created.
 
 <img width="1623" height="534" alt="image (1)" src="https://github.com/user-attachments/assets/84afb5ce-9de7-4bd6-a49a-35e39320d109" />
