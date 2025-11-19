@@ -1,4 +1,4 @@
-# Go through the rest of the threat policies and understand what the default policies can do 
+# Day 11 - Go through the rest of the threat policies and understand what the default policies can do 
 # To check the email policies, I navigate to Defender / Email & collaboration / Policies & rules 
 # There are two categories: Threat policies  &  Alert policy
 
