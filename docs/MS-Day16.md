@@ -49,7 +49,7 @@ Using the subject line "Urgent: Password Expiration Notice" to generate a false 
 
 # Who, What, When, Why, How
 - Who - Who was involved? 109.224.244.29, 79.135.106.101 (Sender IPs)
-- What - What happened?  Malicious emails were sent with a URL links, and an attachment.
+- What - What happened?  Malicious emails were sent with a URL link http://secure-update-help.com/verify-login, and an attachment.
 - When - When did this occur and is it still happening?  from 2025-18-11 15:34:00 UTC to 2025-18-11 15:53:00 UTC
 - Where - Where in the environment did this happen? [bob@30mydfir.onmicrosoft.com](mailto:bob@30mydfir.onmicrosoft.com)
 - Why - Why did this happen? (If known) The attacker intended to deceive the victim in order to obtain credentials.
