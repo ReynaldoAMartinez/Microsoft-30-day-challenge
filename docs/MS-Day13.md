@@ -8,14 +8,14 @@
 
 <img width="1102" height="527" alt="image (3)" src="https://github.com/user-attachments/assets/d9df6631-0eb1-486c-8f11-03d884df172d" />
 
-# Edited policy, add my user and Bob Smith.
+# Added my user and Bob Smith in the policy.
 
 <img width="1375" height="833" alt="image (4)" src="https://github.com/user-attachments/assets/82da6496-ee4a-4094-9a16-e63255d3e986" />
 
-# Applied a quarantine policy if a message is detected as user impersonation.
+# Applied a quarantine action.
 
 <img width="1095" height="845" alt="image" src="https://github.com/user-attachments/assets/d70070e7-4df6-4484-9361-4a9f996da88f" />
 
-# The Antiphishing policy was created in my environment.
+# My Antiphishing policy was created in my environment.
 
 <img width="1623" height="534" alt="image (1)" src="https://github.com/user-attachments/assets/84afb5ce-9de7-4bd6-a49a-35e39320d109" />
