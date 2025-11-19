@@ -17,6 +17,7 @@
 
 # Sent a second email to Bob with an image attached
 <img width="909" height="595" alt="image (10)" src="https://github.com/user-attachments/assets/bd714ace-378c-4a1b-96e7-381efc99d016" />
+
 # Bob clicked on the URL 
 <img width="584" height="644" alt="image (5)" src="https://github.com/user-attachments/assets/0cd732ad-762d-464c-b49e-fb847aff1c91" />
 
