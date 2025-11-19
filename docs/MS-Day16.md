@@ -6,40 +6,40 @@
 <img width="587" height="523" alt="image" src="https://github.com/user-attachments/assets/59c8982a-2a55-44b3-adb3-1d5bdb39b9de" />
 
 
-# Checked the Safe Link created in Day 10 with the fake email sent to Bob
+# Checked the Safe Link with the email sent to Bob
 <img width="1020" height="435" alt="image (1)" src="https://github.com/user-attachments/assets/f147755e-3913-42f2-8809-fa2452654432" />
 
-# Checked the Email in Explorer 
+# Checked the email in Explorer
 <img width="1585" height="762" alt="image (2)" src="https://github.com/user-attachments/assets/b534e596-e2c1-44b6-b3e2-d98e58009957" />
 
-# Analyzed the email cheecking its details
+# Examined the email details
 <img width="1587" height="678" alt="image (3)" src="https://github.com/user-attachments/assets/070b9763-5363-4eef-b279-53d730337723" />
 
-# Sent a second email to Bob, and he clicked on the URL twice 
+# Sent a second email to Bob. He clicked on the URL twice 
 <img width="584" height="644" alt="image (5)" src="https://github.com/user-attachments/assets/0cd732ad-762d-464c-b49e-fb847aff1c91" />
 
 
-# Checked the Authentication fields. It showed there the email passed ok.
+# Checked the Authentication fields. Email passed ok.
 <img width="559" height="207" alt="image (6)" src="https://github.com/user-attachments/assets/a080f518-9e85-4895-a39b-9b9bd160ff95" />
 
 
-# Checked the sender and sender IP.
+# Checked the sender and sender IPs.
 <img width="1597" height="712" alt="image (7)" src="https://github.com/user-attachments/assets/6d42c94a-ad4a-49cf-9ed9-2efc231da736" />
 
 
-# Checked sender IPs using AbuseIPDB (OSINT tool). IPs are not malicious. Both are from ISP Proton AG.
+# Checked sender IPs using AbuseIPDB (OSINT tool). IPs are not malicious. 
 <img width="908" height="835" alt="image (8)" src="https://github.com/user-attachments/assets/aff18537-e2db-4e02-a5d2-c8c0f8d9647f" />
 
 <img width="908" height="835" alt="image (9)" src="https://github.com/user-attachments/assets/f0fb0342-56e7-4229-a8cb-28899a9c9e82" />
 
 # Findings 
-Time: from 2025-18-11 15:34:00 UTC to 2025-18-11 15:53:00 UTC
-Hosts: N/A
-IOC Domain: N/A
-IOC IP: N/A
-Possible Malware Family: N/A
-Filename: N/A
-SHA256 Hash: N/A
+- Time: from 2025-18-11 15:34:00 UTC to 2025-18-11 15:53:00 UTC
+- Hosts: N/A
+- IOC Domain: N/A
+- IOC IP: N/A
+- Possible Malware Family: N/A
+- Filename: N/A
+- SHA256 Hash: N/A
 
 # Investigation Summary
 Using the subject line "Urgent: Password Expiration Notice" to generate a false feeling of urgency, two suspicious emails were sent from elproton1111@proton.me to bob@30mydfir.onmicrosoft.com. Even if the messages passed Composite Authentication, SPF, DKIM, and DMARC, these tests only verify that the email originated from a trustworthy server (proton.me), not that it is secure. A typical warning sign in phishing efforts is the sender's use of a free proton.me account, which is a common indicator in phishing attacks.The user clicked on the link, but fortunately we did not find any signal that his credentials, or another machine has been compromised. 
