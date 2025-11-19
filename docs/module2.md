@@ -3,7 +3,7 @@
 ## Days 10–16
 
 
-[Day 10](/MS-Day10.md) - Create two users and assign E5 licenses
+[Day 10](docs/MS-Day10.md) - Create two users and assign E5 licenses
 
 [MS Day 10](docs/MS-Day10.md) - Create two users and assign E5 licenses
 
