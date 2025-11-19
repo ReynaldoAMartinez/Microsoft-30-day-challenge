@@ -26,7 +26,7 @@
 <img width="559" height="207" alt="image (6)" src="https://github.com/user-attachments/assets/a080f518-9e85-4895-a39b-9b9bd160ff95" />
 
 
-# Checked the sender and sender IPs.
+# Identified the sender and sender IPs.
 <img width="1597" height="712" alt="image (7)" src="https://github.com/user-attachments/assets/6d42c94a-ad4a-49cf-9ed9-2efc231da736" />
 
 
