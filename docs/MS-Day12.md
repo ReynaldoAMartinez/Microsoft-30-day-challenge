@@ -1,4 +1,4 @@
-# Created a Safe Links policy. 
+# Day 12 - Created a Safe Links policy. 
 
 <img width="618" height="942" alt="image (1)" src="https://github.com/user-attachments/assets/7262aae8-b3aa-4edb-b9f5-d280fa00cf28" />
 
