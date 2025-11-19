@@ -7,10 +7,13 @@
 <img width="1074" height="361" alt="image (2)" src="https://github.com/user-attachments/assets/5c8e0185-e878-438b-aa90-29d8c97788a3" />
 
 
-<img width="1571" height="388" alt="image" src="https://github.com/user-attachments/assets/f50b4e98-52c8-43f6-ac66-779314e80e36" />
+<img width="1102" height="527" alt="image (3)" src="https://github.com/user-attachments/assets/d9df6631-0eb1-486c-8f11-03d884df172d" />
+
 
 # Edited policy, add my user checking “Enable users to protect (0/350)”, and click on “manage 0 custom domains(s)”
 # Added Bob Smith
+
+<img width="1375" height="833" alt="image (4)" src="https://github.com/user-attachments/assets/82da6496-ee4a-4094-9a16-e63255d3e986" />
 
 
 
