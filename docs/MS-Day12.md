@@ -14,7 +14,7 @@
 
 <img width="1189" height="402" alt="image (6)" src="https://github.com/user-attachments/assets/04319f00-c5af-48eb-826d-bbf2b1e46db3" />
 
-# Sent a fake email to Bob and Jenny, and check the Safe Link is working.
+# Sent a fake email to Bob and Jenny, and checked the Safe Link is working.
 
 <img width="970" height="357" alt="image (7)" src="https://github.com/user-attachments/assets/204d0952-3b08-4f86-a269-2d70ea9cb81f" />
 
