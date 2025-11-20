@@ -1,4 +1,4 @@
-# Created two users in Microsoft 365 admin center and assigned E5 licenses 
+# Day 10 - Created two users in Microsoft 365 admin center and assigned E5 licenses 
 # Added the first user: Bob Smith
 
 <img width="1565" height="832" alt="image" src="https://github.com/user-attachments/assets/dd3734eb-8e57-4f39-9261-6424c01887c0" />
