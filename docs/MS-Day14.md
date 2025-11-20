@@ -15,8 +15,10 @@ Explorer shows emails by categories and allows to search by specific fields such
 <img width="611" height="830" alt="image1" src="https://github.com/user-attachments/assets/2dafda99-5fad-432d-93c7-cf3a243aa3c3" />
 
 <img width="1590" height="772" alt="image2" src="https://github.com/user-attachments/assets/1bc6f217-8797-46a3-a7b5-5ae7cd71fce5" />
+
 ---
 From here I can check the email header
+
 <img width="1548" height="900" alt="image3" src="https://github.com/user-attachments/assets/b4544a05-33df-4bc7-872c-9b7576d9304c" />
 
 ---
@@ -35,8 +37,35 @@ Quaratine is where suspicious emails are held when they are flagged as threats, 
 <img width="1605" height="457" alt="image (1)" src="https://github.com/user-attachments/assets/7a969e33-2eba-4ce5-b636-4589a1041851" />
 
 ---
-If a user reports a suspicious email, we can see it under: Investigation & response / Actions & submissions / submissions
-As an example, I marked an email from Bob's inbox as phishing, and it was sent to the submissions area. Once there, I marked it as a Phishing, and Bob got the notification.
+
+
+As an example, Bob reported an email as phishing. It was automatically moved to Delete items.
+
+<img width="652" height="696" alt="image" src="https://github.com/user-attachments/assets/1df6cb83-fa19-4ea2-b467-1cd1a956aa1a" />
+
+---
+When Bob reports a suspicious email, it is received under: Investigation & response / Actions & submissions / submissions
+
+<img width="1604" height="388" alt="image (1)" src="https://github.com/user-attachments/assets/48e0c633-aa22-4396-8218-8bde11ff0b33" />
+
+---
+
+Then I set the email as phishing
+<img width="1604" height="388" alt="image (2)" src="https://github.com/user-attachments/assets/595c39be-ab30-4c09-93a2-1fd1666a17b0" />
+<img width="1616" height="420" alt="image (3)" src="https://github.com/user-attachments/assets/898aff1f-a17b-44d8-ad3b-b763978aeea4" />
+
+---
+Minutes later, the user (Bob), receives a confirmation that the email reported is a phishing. 
+
+<img width="1636" height="671" alt="image (4)" src="https://github.com/user-attachments/assets/62f46dbe-dcec-4a52-98dc-7bb2790fc04c" />
+
+
+
+
+
+
+
+
 
 
 
