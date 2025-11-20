@@ -23,6 +23,7 @@ From here I can check the email header
 
 ---
 I can take actions such as Submit to Microsoft for review, or Initiate automated investigation
+
 <img width="1350" height="537" alt="image (1)" src="https://github.com/user-attachments/assets/e1f017a8-4115-4623-8d51-5daf2dcfe08a" />
 
 ---
@@ -51,6 +52,7 @@ When Bob reported the suspicious email, it was received in Investigation & respo
 ---
 
 Once the email was examined, it was marked as phishing
+
 <img width="1604" height="388" alt="image (2)" src="https://github.com/user-attachments/assets/595c39be-ab30-4c09-93a2-1fd1666a17b0" />
 <img width="1616" height="420" alt="image (3)" src="https://github.com/user-attachments/assets/898aff1f-a17b-44d8-ad3b-b763978aeea4" />
 
