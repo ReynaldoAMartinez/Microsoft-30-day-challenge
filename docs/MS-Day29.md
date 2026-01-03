@@ -187,76 +187,96 @@ EmailEvents
 | order by Timestamp desc
 ```
 
-Extract URLs from Email Content
+### Extract URLs from Email Content
+```kql
 EmailUrlInfo
 | where Url contains "testsafebrowsing.appspot.com"
 | project Timestamp, Url, NetworkMessageId
+```
 
-Check for User Interaction (URL Clicks)
+### Check for User Interaction (URL Clicks)
+```kql
 UrlClickEvents
 | where AccountUpn == "jenny@30mydfir.onmicrosoft.com"
 | project Timestamp, Url, ActionType
 | order by Timestamp desc
+```
 
 🔐 Identity & Sign-In Investigation Queries
-Review Blocked Sign-In Attempts
+### Review Blocked Sign-In Attempts
+```kql
 SignInLogs
 | where UserPrincipalName == "jenny@30mydfir.onmicrosoft.com"
 | where ResultType == 53003
 | project TimeGenerated, IPAddress, Location, ResultDescription, ConditionalAccessStatus
 | order by TimeGenerated desc
+```
 
-Detect Sign-Ins from Unusual Locations
+### Detect Sign-Ins from Unusual Locations
+```kql
 SignInLogs
 | where UserPrincipalName == "jenny@30mydfir.onmicrosoft.com"
 | summarize count() by Location, IPAddress
+```
 
 💻 Endpoint Investigation Queries (Microsoft Defender for Endpoint)
-PowerShell Process Execution
+### PowerShell Process Execution
+```kql
 DeviceProcessEvents
 | where FileName == "powershell.exe"
 | project Timestamp, DeviceName, ProcessCommandLine, InitiatingProcessFileName
 | order by Timestamp desc
+```
 
-Detect Obfuscated or Suspicious PowerShell Activity
+### Detect Obfuscated or Suspicious PowerShell Activity
+```kql
 DeviceProcessEvents
 | where FileName == "powershell.exe"
 | where ProcessCommandLine has_any ("-enc", "IEX", "Invoke-", "DownloadString")
 | project Timestamp, DeviceName, ProcessCommandLine
+```
 
-Registry Persistence (Run Keys)
+### Registry Persistence (Run Keys)
+```kql
 DeviceRegistryEvents
 | where RegistryKey has_any ("Run", "RunOnce")
 | project Timestamp, DeviceName, RegistryKey, RegistryValueName, RegistryValueData
 | order by Timestamp desc
+```
 
-Suspicious Script or Artifact Creation
+### Suspicious Script or Artifact Creation
+```kql
 DeviceFileEvents
 | where FileName contains "_PSScriptPolicyTest"
 | project Timestamp, DeviceName, FileName, FolderPath, ActionType
+```
 
 🌐 Network Activity Queries
 
-Outbound Network Connections from PowerShell
+### Outbound Network Connections from PowerShell
+```kql
 DeviceNetworkEvents
 | where InitiatingProcessFileName == "powershell.exe"
 | project Timestamp, DeviceName, RemoteIP, RemoteUrl, RemotePort
 | order by Timestamp desc
+```
 
 🧠 Correlation & Hunting Queries
-
-Correlate User Activity Across Email, Identity, and Endpoint
+### Correlate User Activity Across Email, Identity, and Endpoint
+```kql
 union EmailEvents, SignInLogs, DeviceProcessEvents
 | where tostring(UserPrincipalName) == "jenny@30mydfir.onmicrosoft.com"
 | project TimeGenerated, ActionType, DeviceName, IPAddress
 | order by TimeGenerated asc
+```
 
-Identify Potential Persistence Techniques
+### Identify Potential Persistence Techniques
+```kql
 DeviceEvents
 | where ActionType contains "Registry"
 | where AdditionalFields has "Run"
 | project Timestamp, DeviceName, ActionType, AdditionalFields
-
+```
 
 
 ## 📂 Repository Purpose
