@@ -1,7 +1,1 @@
-Today, I will use all I learned to correlate alerts across multiple domains and see how attackers often move between email, identity and endpoint.
-
-Defender / Investigation & response / Incidents & alerts / Incidents
-
-we will simulate an event —> phishing email
-
-start a new email access ( new account ) —> outlook.office.com
+<img width="1024" height="1024" alt="UnderConstruction" src="https://github.com/user-attachments/assets/1b1eab32-9cf6-463a-8d98-3d1cf12a6a89" />
