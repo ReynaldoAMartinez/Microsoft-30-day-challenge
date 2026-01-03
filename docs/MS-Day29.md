@@ -150,20 +150,15 @@ Yes. A foreign sign-in was blocked by Conditional Access (Error Code `53003`).
 
 ---
 
-## 🎯 MITRE ATT&CK Mapping
-
-| Tactic | Technique |
-|------|---------|
-| Initial Access | T1566 – Phishing |
-| Persistence | T1547.001 – Registry Run Keys |
-| Execution | T1059.001 – PowerShell |
-
-
 ## 🎯 MITRE ATT&CK Mapping & Technique Descriptions
 
 The following MITRE ATT&CK techniques were observed during this simulated investigation.  
-Each entry includes a brief description explaining **how the technique works** and **how it applied to this case**.
 
+| Tactic | Technique ID | Technique Name |
+|------|------------|----------------|
+| Initial Access | T1566 | Phishing |
+| Execution | T1059.001 | PowerShell |
+| Persistence | T1547.001 | Registry Run Keys / Startup Folder |
 ---
 
 ### 🟠 Initial Access
@@ -199,35 +194,13 @@ An Atomic Red Team simulation attempted to establish persistence using registry-
 
 ---
 
-## 🧠 ATT&CK Coverage Summary
-
-| Tactic | Technique ID | Technique Name |
-|------|------------|----------------|
-| Initial Access | T1566 | Phishing |
-| Execution | T1059.001 | PowerShell |
-| Persistence | T1547.001 | Registry Run Keys / Startup Folder |
-
----
-
-## 📌 Why This Mapping Matters
-
-Mapping activity to MITRE ATT&CK:
-- Provides a **standardized adversary model**
-- Helps SOC analysts understand **attacker intent**
-- Improves **detection coverage analysis**
-- Enables better **incident correlation and reporting**
-
 This investigation demonstrates how Microsoft Defender provides visibility across multiple ATT&CK tactics in a single incident narrative.
-
----
 
 ---
 
 ## 🏁 Conclusion
 
 This project demonstrates how **Microsoft Defender’s layered security approach** enables effective detection and correlation across email, identity, and endpoint telemetry. While no single control prevented all activity, combined signals provided strong visibility and actionable insights—mirroring real SOC investigation workflows.
-
----
 
 ---
 
