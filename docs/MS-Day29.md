@@ -158,6 +158,69 @@ Yes. A foreign sign-in was blocked by Conditional Access (Error Code `53003`).
 | Persistence | T1547.001 – Registry Run Keys |
 | Execution | T1059.001 – PowerShell |
 
+
+## 🎯 MITRE ATT&CK Mapping & Technique Descriptions
+
+The following MITRE ATT&CK techniques were observed during this simulated investigation.  
+Each entry includes a brief description explaining **how the technique works** and **how it applied to this case**.
+
+---
+
+### 🟠 Initial Access
+
+#### **T1566 – Phishing**
+**Description:**  
+Phishing is a technique used to gain initial access by sending deceptive emails that trick users into clicking malicious links or opening harmful attachments.
+
+**Observed in This Case:**  
+An invoice-themed phishing email was delivered to the user mailbox `jenny@30mydfir.onmicrosoft.com`. Although the email was classified as *Allowed* and no user interaction occurred, it represented a realistic initial access attempt commonly used by attackers.
+
+---
+
+### 🟣 Execution
+
+#### **T1059.001 – Command and Scripting Interpreter: PowerShell**
+**Description:**  
+Attackers abuse PowerShell to execute commands, download payloads, or run scripts while blending in with legitimate administrative activity.
+
+**Observed in This Case:**  
+Microsoft Defender for Endpoint detected obfuscated PowerShell execution on a Windows 11 endpoint. The activity included script execution consistent with attacker-style command execution and automation behavior.
+
+---
+
+### 🔵 Persistence
+
+#### **T1547.001 – Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder**
+**Description:**  
+This technique enables attackers to achieve persistence by configuring programs to execute automatically during system boot or user logon via registry run keys or startup folders.
+
+**Observed in This Case:**  
+An Atomic Red Team simulation attempted to establish persistence using registry-based autostart mechanisms. Defender detected the behavior through registry modification activity and associated PowerShell execution.
+
+---
+
+## 🧠 ATT&CK Coverage Summary
+
+| Tactic | Technique ID | Technique Name |
+|------|------------|----------------|
+| Initial Access | T1566 | Phishing |
+| Execution | T1059.001 | PowerShell |
+| Persistence | T1547.001 | Registry Run Keys / Startup Folder |
+
+---
+
+## 📌 Why This Mapping Matters
+
+Mapping activity to MITRE ATT&CK:
+- Provides a **standardized adversary model**
+- Helps SOC analysts understand **attacker intent**
+- Improves **detection coverage analysis**
+- Enables better **incident correlation and reporting**
+
+This investigation demonstrates how Microsoft Defender provides visibility across multiple ATT&CK tactics in a single incident narrative.
+
+---
+
 ---
 
 ## 🏁 Conclusion
