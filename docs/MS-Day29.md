@@ -178,6 +178,16 @@ An invoice-themed phishing email was delivered to the user mailbox `jenny@30mydf
 **Description:**  
 Attackers abuse PowerShell to execute commands, download payloads, or run scripts while blending in with legitimate administrative activity.
 
+```kql
+ntoskrnl.exe
+ └─ smss.exe
+    └─ winlogon.exe
+       └─ userinit.exe
+          └─ explorer.exe
+             └─ powershell.exe
+                └─ powershell.exe (script execution)
+```
+
 **Observed in This Case:**  
 Microsoft Defender for Endpoint detected obfuscated PowerShell execution on a Windows 11 endpoint. The activity included script execution consistent with attacker-style command execution and automation behavior.
 
