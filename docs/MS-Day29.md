@@ -84,7 +84,7 @@ While the phishing email bypassed preventive controls, identity and endpoint pro
 
 ---
 
-## ❓ Investigation Questions – Answered
+## ❓ Investigation Questions
 
 ### What triggered the incident?
 A simulated phishing email followed by suspicious identity and endpoint activity.
