@@ -216,7 +216,7 @@ This project demonstrates how **Microsoft Defender’s layered security approach
 
 ## 📎 Appendix A – KQL Queries (Investigation Reference)
 
-> The following KQL queries represent **example investigative queries** that could be used to validate and correlate findings in Microsoft Defender and Microsoft Sentinel.  
+The following KQL queries represent **example investigative queries** that could be used to validate and correlate findings in Microsoft Defender and Microsoft Sentinel.  
 
 ---
 
