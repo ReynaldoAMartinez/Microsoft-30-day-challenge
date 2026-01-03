@@ -30,12 +30,13 @@ The objective was to validate detection, prevention, and correlation capabilitie
 
 ---
 
-## 🧠 Investigation Summary (What happened)
+## 🧾 Executive Summary
 
-The investigation simulated a common attacker lifecycle:
-1. Initial access via phishing
-2. Suspicious authentication attempt
-3. Endpoint persistence activity
+On December 26–29, 2025, a simulated multi-stage security incident was observed within a controlled lab environment involving the user account **jenny@30mydfir.onmicrosoft.com** and a Windows 11 endpoint. The activity began with the delivery of a phishing email using an invoice-themed lure, followed by a suspicious sign-in attempt from a foreign geography and concluded with endpoint persistence activity leveraging obfuscated PowerShell and registry-based autostart mechanisms.
+
+Microsoft Defender correlated signals across **email, identity, and endpoint** security layers. While the phishing email bypassed preventive controls, a risky sign-in attempt originating from the Netherlands was **successfully blocked** by Conditional Access. Subsequent persistence behavior on the endpoint was **detected** by Microsoft Defender for Endpoint. No evidence of lateral movement or data exfiltration was observed during the investigation.
+
+**Root Cause:** Simulated phishing-based initial access followed by attempted identity misuse and endpoint persistence activity using PowerShell and registry run keys within a controlled lab environment.
 
 While the phishing email bypassed preventive controls, identity and endpoint protections successfully detected and/or blocked malicious behavior. This highlights the importance of **defense-in-depth** and cross-domain telemetry correlation.
 
