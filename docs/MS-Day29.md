@@ -204,13 +204,9 @@ An Atomic Red Team simulation attempted to establish persistence using registry-
 
 ---
 
-This investigation demonstrates how Microsoft Defender provides visibility across multiple ATT&CK tactics in a single incident narrative.
-
----
-
 ## 🏁 Conclusion
 
-This project demonstrates how **Microsoft Defender’s layered security approach** enables effective detection and correlation across email, identity, and endpoint telemetry. While no single control prevented all activity, combined signals provided strong visibility and actionable insights—mirroring real SOC investigation workflows.
+This project demonstrates how **Microsoft Defender’s layered security approach** enables effective detection and correlation across email, identity, and endpoint telemetry. While no single control prevented all activity, combined signals provided strong visibility and actionable insights—mirroring real SOC investigation workflows. This investigation demonstrates how **Microsoft Defender provides visibility across multiple ATT&CK tactics** in a single incident narrative.
 
 ---
 
