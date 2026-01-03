@@ -235,6 +235,7 @@ DeviceFileEvents
 | project Timestamp, DeviceName, FileName, FolderPath, ActionType
 
 🌐 Network Activity Queries
+
 Outbound Network Connections from PowerShell
 DeviceNetworkEvents
 | where InitiatingProcessFileName == "powershell.exe"
@@ -242,6 +243,7 @@ DeviceNetworkEvents
 | order by Timestamp desc
 
 🧠 Correlation & Hunting Queries
+
 Correlate User Activity Across Email, Identity, and Endpoint
 union EmailEvents, SignInLogs, DeviceProcessEvents
 | where tostring(UserPrincipalName) == "jenny@30mydfir.onmicrosoft.com"
