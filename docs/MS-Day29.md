@@ -36,8 +36,6 @@ On December 26–29, 2025, a simulated multi-stage security incident was observe
 
 Microsoft Defender correlated signals across **email, identity, and endpoint** security layers. While the phishing email bypassed preventive controls, a risky sign-in attempt originating from the Netherlands was **successfully blocked** by Conditional Access. Subsequent persistence behavior on the endpoint was **detected** by Microsoft Defender for Endpoint. No evidence of lateral movement or data exfiltration was observed during the investigation.
 
-**Root Cause:** Simulated phishing-based initial access followed by attempted identity misuse and endpoint persistence activity using PowerShell and registry run keys within a controlled lab environment.
-
 While the phishing email bypassed preventive controls, identity and endpoint protections successfully detected and/or blocked malicious behavior. This highlights the importance of **defense-in-depth** and cross-domain telemetry correlation.
 
 ---
