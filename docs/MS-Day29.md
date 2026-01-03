@@ -7,10 +7,9 @@
 
 ## 📌 Overview
 
-This mini-project demonstrates a **simulated end-to-end security investigation** using **Microsoft Defender** across **email, identity, and endpoint** security layers.  
+This mini-project is based on the simulation detailed in Day 28. It demonstrates a **simulated end-to-end security investigation** using **Microsoft Defender** across **email, identity, and endpoint** security layers.  
 The objective was to validate detection, prevention, and correlation capabilities in a realistic attack scenario.
 
-> ⚠️ All activities were performed in a **controlled lab environment** for educational and portfolio purposes.
 
 ---
 
