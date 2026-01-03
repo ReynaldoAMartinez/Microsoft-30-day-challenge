@@ -185,6 +185,7 @@ EmailEvents
 | where Subject contains "Invoice"
 | project Timestamp, SenderFromAddress, Subject, DeliveryAction, NetworkMessageId
 | order by Timestamp desc
+```
 
 Extract URLs from Email Content
 EmailUrlInfo
