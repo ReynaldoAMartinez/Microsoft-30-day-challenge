@@ -168,6 +168,94 @@ This project demonstrates how **Microsoft Defender’s layered security approach
 
 ---
 
+---
+
+## 📎 Appendix A – KQL Queries (Investigation Reference)
+
+> The following KQL queries represent **example investigative queries** that could be used to validate and correlate findings in Microsoft Defender and Microsoft Sentinel.  
+
+---
+
+## ✉️ Email Investigation Queries
+
+### Identify the Phishing Email
+```kql
+EmailEvents
+| where RecipientEmailAddress == "jenny@30mydfir.onmicrosoft.com"
+| where Subject contains "Invoice"
+| project Timestamp, SenderFromAddress, Subject, DeliveryAction, NetworkMessageId
+| order by Timestamp desc
+
+Extract URLs from Email Content
+EmailUrlInfo
+| where Url contains "testsafebrowsing.appspot.com"
+| project Timestamp, Url, NetworkMessageId
+
+Check for User Interaction (URL Clicks)
+UrlClickEvents
+| where AccountUpn == "jenny@30mydfir.onmicrosoft.com"
+| project Timestamp, Url, ActionType
+| order by Timestamp desc
+
+🔐 Identity & Sign-In Investigation Queries
+Review Blocked Sign-In Attempts
+SignInLogs
+| where UserPrincipalName == "jenny@30mydfir.onmicrosoft.com"
+| where ResultType == 53003
+| project TimeGenerated, IPAddress, Location, ResultDescription, ConditionalAccessStatus
+| order by TimeGenerated desc
+
+Detect Sign-Ins from Unusual Locations
+SignInLogs
+| where UserPrincipalName == "jenny@30mydfir.onmicrosoft.com"
+| summarize count() by Location, IPAddress
+
+💻 Endpoint Investigation Queries (Microsoft Defender for Endpoint)
+PowerShell Process Execution
+DeviceProcessEvents
+| where FileName == "powershell.exe"
+| project Timestamp, DeviceName, ProcessCommandLine, InitiatingProcessFileName
+| order by Timestamp desc
+
+Detect Obfuscated or Suspicious PowerShell Activity
+DeviceProcessEvents
+| where FileName == "powershell.exe"
+| where ProcessCommandLine has_any ("-enc", "IEX", "Invoke-", "DownloadString")
+| project Timestamp, DeviceName, ProcessCommandLine
+
+Registry Persistence (Run Keys)
+DeviceRegistryEvents
+| where RegistryKey has_any ("Run", "RunOnce")
+| project Timestamp, DeviceName, RegistryKey, RegistryValueName, RegistryValueData
+| order by Timestamp desc
+
+Suspicious Script or Artifact Creation
+DeviceFileEvents
+| where FileName contains "_PSScriptPolicyTest"
+| project Timestamp, DeviceName, FileName, FolderPath, ActionType
+
+🌐 Network Activity Queries
+Outbound Network Connections from PowerShell
+DeviceNetworkEvents
+| where InitiatingProcessFileName == "powershell.exe"
+| project Timestamp, DeviceName, RemoteIP, RemoteUrl, RemotePort
+| order by Timestamp desc
+
+🧠 Correlation & Hunting Queries
+Correlate User Activity Across Email, Identity, and Endpoint
+union EmailEvents, SignInLogs, DeviceProcessEvents
+| where tostring(UserPrincipalName) == "jenny@30mydfir.onmicrosoft.com"
+| project TimeGenerated, ActionType, DeviceName, IPAddress
+| order by TimeGenerated asc
+
+Identify Potential Persistence Techniques
+DeviceEvents
+| where ActionType contains "Registry"
+| where AdditionalFields has "Run"
+| project Timestamp, DeviceName, ActionType, AdditionalFields
+
+
+
 ## 📂 Repository Purpose
 
 This repository is part of my **cybersecurity portfolio**, showcasing:
